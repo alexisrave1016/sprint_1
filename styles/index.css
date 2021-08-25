@@ -1,0 +1,20 @@
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 360px;
+    height: 640px;
+    background-color: #7f5af0;
+    display: flex;
+    
+    
+    
+}
+
+.logo {
+    width: 177.15px;
+    height: 143.62px;
+    margin: auto;
+}
