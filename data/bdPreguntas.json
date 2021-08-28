@@ -1,254 +1,252 @@
-{
-    "datos": [{
-            "pregunta": "¿Que etiqueta es semánticamente correcta para el contenido principal?",
-            "categoria": "html",
-            "respuesta_correcta": "main",
-            "respuestas": [
-                "main",
-                "section",
-                "header"
-            ],
-            "tipo_pregunta": "selecion"
+[{
+        "pregunta": "¿Que etiqueta es semánticamente correcta para el contenido principal?",
+        "categoria": "html",
+        "respuesta_correcta": "main",
+        "respuestas": [
+            "main",
+            "section",
+            "header"
+        ],
+        "tipo_pregunta": "seleccion"
 
-        },
+    },
 
-        {
-            "pregunta": "¿Qué etiqueta HTML nos sirve para incluir archivos de JavaScript?",
-            "categoria": "html",
-            "respuesta_correcta": "<script>",
-            "respuestas": [
-                "<br>",
-                "<script>",
-                "<styles>"
-            ],
-            "tipo_pregunta": "selecion"
+    {
+        "pregunta": "¿Qué etiqueta HTML nos sirve para incluir archivos de JavaScript?",
+        "categoria": "html",
+        "respuesta_correcta": "<script>",
+        "respuestas": [
+            "<br>",
+            "<script>",
+            "<styles>"
+        ],
+        "tipo_pregunta": "seleccion"
 
-        },
-
+    },
 
 
-        {
-            "pregunta": "Organiza la estructura de un documento HTML5",
-            "categoria": "html, css, js",
-            "respuesta_correcta": "1,2,3,4,5",
-            "respuestas": [
-                
-                {
-                    "<!DOCTYPE html>": "1"
-                },
-                {
-                    "<body> </body>": "4"
-                },
-                {
-                    "<head> </head>": "3"
-                },
-                {
-                    "<html>": "2"
-                },
-                {
-                    "</html>": "5"
-                }
-            ],
-            "tipo_pregunta": "organizacion"
 
-        },
+    {
+        "pregunta": "Organiza la estructura de un documento HTML5",
+        "categoria": "html, css, js",
+        "respuesta_correcta": "1,2,3,4,5",
+        "respuestas": [
 
-        {
-            "pregunta": "como hacer esto",
-            "categoria": "html, css, js",
-            "respuesta_correcta": "respuesta correcta",
-            "respuestas": [
-                "primera opcion",
-                "segunda opcion",
-                "tercera opcion"
-            ],
-            "tipo_pregunta": "selecion, imagen, organizacion"
+            {
+                "<!DOCTYPE html>": "1"
+            },
+            {
+                "<body> </body>": "4"
+            },
+            {
+                "<head> </head>": "3"
+            },
+            {
+                "<html>": "2"
+            },
+            {
+                "</html>": "5"
+            }
+        ],
+        "tipo_pregunta": "organizacion"
 
-        },
+    },
 
-        {
-            "pregunta": "como hacer esto",
-            "categoria": "html, css, js",
-            "respuesta_correcta": "respuesta correcta",
-            "respuestas": [
-                "primera opcion",
-                "segunda opcion",
-                "tercera opcion"
-            ],
-            "tipo_pregunta": "selecion, imagen, organizacion"
+    {
+        "pregunta": "como hacer esto",
+        "categoria": "html, css, js",
+        "respuesta_correcta": "respuesta correcta",
+        "respuestas": [
+            "primera opcion",
+            "segunda opcion",
+            "tercera opcion"
+        ],
+        "tipo_pregunta": "organizacion"
 
-        },
+    },
 
-      
+    {
+        "pregunta": "como hacer esto",
+        "categoria": "html, css, js",
+        "respuesta_correcta": "respuesta correcta",
+        "respuestas": [
+            "primera opcion",
+            "segunda opcion",
+            "tercera opcion"
+        ],
+        "tipo_pregunta": "imagen"
 
-        {
-            "pregunta": "¿Cual es la etiqueta que ",
-            "categoria": "html, css, js",
-            "respuesta_correcta": "respuesta correcta",
-            "respuestas": [
-                "primera opcion",
-                "segunda opcion",
-                "tercera opcion"
-            ],
-            "tipo_pregunta": "selecion, imagen, organizacion"
-
-        },
-
-        {
-            "pregunta": "¿Que etiqueta usamos para cambiar el fonde del contenedeor?",
-            "categoria": "css",
-            "respuesta_correcta": "background-color",
-            "respuestas": [
-                "color",
-                "background-color",
-                "margin"
-            ],
-            "tipo_pregunta": "selecion"
-
-        },
-
-        {
-            "pregunta": "¿Que etiqueta usamos para cambiar el tamaño de la fuente?",
-            "categoria": "html, css, js",
-            "respuesta_correcta": "font-size",
-            "respuestas": [
-                "font-family",
-                "font-size",
-                "font-style"
-            ],
-            "tipo_pregunta": "selecion, imagen, organizacion"
-
-        },
-
-        {
-            "pregunta": "como hacer esto",
-            "categoria": "html, css, js",
-            "respuesta_correcta": "respuesta correcta",
-            "respuestas": [
-                "primera opcion",
-                "segunda opcion",
-                "tercera opcion"
-            ],
-            "tipo_pregunta": "selecion, imagen, organizacion"
-
-        },
-
-        {
-            "pregunta": "como hacer esto",
-            "categoria": "html, css, js",
-            "respuesta_correcta": "respuesta correcta",
-            "respuestas": [
-                "primera opcion",
-                "segunda opcion",
-                "tercera opcion"
-            ],
-            "tipo_pregunta": "selecion, imagen, organizacion"
-
-        },
-
-        {
-            "pregunta": "como hacer esto",
-            "categoria": "html, css, js",
-            "respuesta_correcta": "respuesta correcta",
-            "respuestas": [
-                "primera opcion",
-                "segunda opcion",
-                "tercera opcion"
-            ],
-            "tipo_pregunta": "selecion, imagen, organizacion"
-
-        },
-
-        {
-            "pregunta": "como hacer esto",
-            "categoria": "html, css, js",
-            "respuesta_correcta": "respuesta correcta",
-            "respuestas": [
-                "primera opcion",
-                "segunda opcion",
-                "tercera opcion"
-            ],
-            "tipo_pregunta": "selecion, imagen, organizacion"
-
-        },
-
-        {
-            "pregunta": "¿Que significa DRY?",
-            "categoria": "js",
-            "respuesta_correcta": "Don't repeat yourself",
-            "respuestas": [
-                "Don't repeat yellow",
-                "Don't repeat yourself",
-                "Don't recicle year"
-            ],
-            "tipo_pregunta": "selecion"
-
-        },
+    },
 
 
-        {
-            "pregunta": "¿Que tipo de dato es : '5' ",
-            "categoria": "js",
-            "respuesta_correcta": "String",
-            "respuestas": [
-                "String",
-                "Number",
-                "Boolean"
-            ],
-            "tipo_pregunta": "selecion"
 
-        },
+    {
+        "pregunta": "¿Cual es la etiqueta que ",
+        "categoria": "html, css, js",
+        "respuesta_correcta": "respuesta correcta",
+        "respuestas": [
+            "primera opcion",
+            "segunda opcion",
+            "tercera opcion"
+        ],
+        "tipo_pregunta": "imagen"
 
-        {
-            "pregunta": "como hacer esto",
-            "categoria": "html, css, js",
-            "respuesta_correcta": "respuesta correcta",
-            "respuestas": [
-                "primera opcion",
-                "segunda opcion",
-                "tercera opcion"
-            ],
-            "tipo_pregunta": "selecion, imagen, organizacion"
+    },
 
-        },
+    {
+        "pregunta": "¿Que etiqueta usamos para cambiar el fonde del contenedeor?",
+        "categoria": "css",
+        "respuesta_correcta": "background-color",
+        "respuestas": [
+            "color",
+            "background-color",
+            "margin"
+        ],
+        "tipo_pregunta": "seleccion"
 
-        {
-            "pregunta": "como hacer esto",
-            "categoria": "html, css, js",
-            "respuesta_correcta": "respuesta correcta",
-            "respuestas": [
-                "primera opcion",
-                "segunda opcion",
-                "tercera opcion"
-            ],
-            "tipo_pregunta": "selecion, imagen, organizacion"
+    },
 
-        },
+    {
+        "pregunta": "¿Que etiqueta usamos para cambiar el tamaño de la fuente?",
+        "categoria": "html, css, js",
+        "respuesta_correcta": "font-size",
+        "respuestas": [
+            "font-family",
+            "font-size",
+            "font-style"
+        ],
+        "tipo_pregunta": "seleccion"
 
-        {
-            "pregunta": "como hacer esto",
-            "categoria": "html, css, js",
-            "respuesta_correcta": "respuesta correcta",
-            "respuestas": [
-                "primera opcion",
-                "segunda opcion",
-                "tercera opcion"
-            ],
-            "tipo_pregunta": "selecion, imagen, organizacion"
+    },
 
-        },
+    {
+        "pregunta": "como hacer esto",
+        "categoria": "html, css, js",
+        "respuesta_correcta": "respuesta correcta",
+        "respuestas": [
+            "primera opcion",
+            "segunda opcion",
+            "tercera opcion"
+        ],
+        "tipo_pregunta": "seleccion, imagen, organizacion"
 
-        {
-            "pregunta": "como hacer esto",
-            "categoria": "html, css, js",
-            "respuesta_correcta": "respuesta correcta",
-            "respuestas": [
-                "primera opcion",
-                "segunda opcion",
-                "tercera opcion"
-            ],
-            "tipo_pregunta": "selecion, imagen, organizacion"
+    },
 
-        }
-    ]
-}
+    {
+        "pregunta": "como hacer esto",
+        "categoria": "html, css, js",
+        "respuesta_correcta": "respuesta correcta",
+        "respuestas": [
+            "primera opcion",
+            "segunda opcion",
+            "tercera opcion"
+        ],
+        "tipo_pregunta": "seleccion, imagen, organizacion"
+
+    },
+
+    {
+        "pregunta": "como hacer esto",
+        "categoria": "html, css, js",
+        "respuesta_correcta": "respuesta correcta",
+        "respuestas": [
+            "primera opcion",
+            "segunda opcion",
+            "tercera opcion"
+        ],
+        "tipo_pregunta": "seleccion, imagen, organizacion"
+
+    },
+
+    {
+        "pregunta": "como hacer esto",
+        "categoria": "html, css, js",
+        "respuesta_correcta": "respuesta correcta",
+        "respuestas": [
+            "primera opcion",
+            "segunda opcion",
+            "tercera opcion"
+        ],
+        "tipo_pregunta": "seleccion, imagen, organizacion"
+
+    },
+
+    {
+        "pregunta": "¿Que significa DRY?",
+        "categoria": "js",
+        "respuesta_correcta": "Don't repeat yourself",
+        "respuestas": [
+            "Don't repeat yellow",
+            "Don't repeat yourself",
+            "Don't recicle year"
+        ],
+        "tipo_pregunta": "seleccion"
+
+    },
+
+
+    {
+        "pregunta": "¿Que tipo de dato es : '5' ",
+        "categoria": "js",
+        "respuesta_correcta": "String",
+        "respuestas": [
+            "String",
+            "Number",
+            "Boolean"
+        ],
+        "tipo_pregunta": "seleccion"
+
+    },
+
+    {
+        "pregunta": "como hacer esto",
+        "categoria": "html, css, js",
+        "respuesta_correcta": "respuesta correcta",
+        "respuestas": [
+            "primera opcion",
+            "segunda opcion",
+            "tercera opcion"
+        ],
+        "tipo_pregunta": "seleccion, imagen, organizacion"
+
+    },
+
+    {
+        "pregunta": "como hacer esto",
+        "categoria": "html, css, js",
+        "respuesta_correcta": "respuesta correcta",
+        "respuestas": [
+            "primera opcion",
+            "segunda opcion",
+            "tercera opcion"
+        ],
+        "tipo_pregunta": "seleccion, imagen, organizacion"
+
+    },
+
+    {
+        "pregunta": "como hacer esto",
+        "categoria": "html, css, js",
+        "respuesta_correcta": "respuesta correcta",
+        "respuestas": [
+            "primera opcion",
+            "segunda opcion",
+            "tercera opcion"
+        ],
+        "tipo_pregunta": "seleccion, imagen, organizacion"
+
+    },
+
+    {
+        "pregunta": "como hacer esto",
+        "categoria": "html, css, js",
+        "respuesta_correcta": "respuesta correcta",
+        "respuestas": [
+            "primera opcion",
+            "segunda opcion",
+            "tercera opcion"
+        ],
+        "tipo_pregunta": "seleccion, imagen, organizacion"
+
+    }
+]

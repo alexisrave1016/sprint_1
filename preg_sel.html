@@ -12,7 +12,11 @@
     <div class="container_preguntasSEl">
         <div class="porcentaje">
             <img src="/img/logo_x.png" alt="No Disponible">
-            <div class="barra_porcentaje">===========================</div>
+            <div class="barra_porcentaje"> 
+                <div class="barra_porcentaje_interna">
+
+                </div>
+            </div>
             <img src="/img/corazon.png" alt="No Disponible">
             <span class="numero_vidas">4</span>
         </div>
@@ -23,11 +27,12 @@
             </p>
         </div>
 
-        <div class="respuestas_totales">
-            <div class="respuesta1"> primera respuesta iria aca<input type="checkbox" class="redondo"> </div>
-            <div class="respuesta2"> esta es la segunda respuesta<input type="checkbox" class="redondo"></div>
-            <div class="respuesta3">  esta es la terecera respuesta<input type="checkbox" class="redondo"></div>
-
+        <div class="respuestas_totales" id="respuestasTotales">
+                
+            <div class="respuesta1"> ${dataDb[contadorPreguntas].respuestas[0]} </div> 
+            <div class = "respuesta2"> ${dataDb[contadorPreguntas].respuestas[1]} </div>
+            <div class = "respuesta3"> ${dataDb[contadorPreguntas].respuestas[2]} </div>
+        }
         </div>
 
         <div class="boton_seleccion">
@@ -35,6 +40,6 @@
         </div>
     </div>
   
-    <script src="/script/preg_sol.js"></script>
+    <script src="/script/preg_sel.js"></script>
 </body>
 </html>

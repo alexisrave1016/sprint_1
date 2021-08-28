@@ -14,7 +14,24 @@ body {
 .porcentaje {
     display: flex;
 }
+.barra_porcentaje{
+    width: 240px;
+    height: 6px;
+    background-color: red;
+    margin-top: 10px;
+    border-radius: 6px;
+    position: relative;
+}
+.barra_porcentaje_interna{
+    height: 6px;
+    width: 0;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
 
+}
 .pregunta {
     display: flex;
     width: 328px;
