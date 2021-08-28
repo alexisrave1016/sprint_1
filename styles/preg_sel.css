@@ -14,7 +14,8 @@ body {
 .porcentaje {
     display: flex;
 }
-.barra_porcentaje{
+
+.barra_porcentaje {
     width: 240px;
     height: 6px;
     background-color: red;
@@ -22,7 +23,8 @@ body {
     border-radius: 6px;
     position: relative;
 }
-.barra_porcentaje_interna{
+
+.barra_porcentaje_interna {
     height: 6px;
     width: 0;
     border-radius: 6px;
@@ -32,6 +34,7 @@ body {
     background-color: white;
 
 }
+
 .pregunta {
     display: flex;
     width: 328px;
@@ -105,4 +108,55 @@ body {
     margin-bottom: 15px;
 }
 
+/*esto es la pagina de img*/
 
+/* .respuestas_imagenes {
+    width: 360;
+    height: 408px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: -20px;
+
+
+} */
+
+   /* .imagen1 {
+    width: 144px;
+    height: 200px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.imagen2 {
+    width: 144px;
+    height: 200px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.imagen3 {
+    width: 144px;
+    height: 200px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.imagen4 {
+    width: 144px;
+    height: 200px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+} */
