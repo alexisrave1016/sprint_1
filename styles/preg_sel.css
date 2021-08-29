@@ -38,7 +38,7 @@ body {
 .pregunta {
     display: flex;
     width: 328px;
-    height: 159px;
+    min-height: auto;
     justify-content: space-evenly;
 }
 
@@ -52,6 +52,20 @@ body {
     align-items: center;
 
 
+}
+
+.respuestas_totales{
+    width: 360;
+    height: 408px;
+    box-sizing: border-box;
+    /* display: flex;
+    align-items: flex-end;
+    justify-content:center;
+    flex-wrap: wrap; */
+   
+ 
+
+ 
 }
 
 .respuesta1 {
@@ -97,66 +111,22 @@ body {
     box-sizing: border-box;
     padding-right: 15px;
     background-color: #232e35;
+   
 }
 
 #pregunta_aleatorio {
     width: 237px;
-    height: 120px;
+    height: 60px;
+    text-align: left;
+    
 }
 
 .boton_seleccion {
     margin-bottom: 15px;
 }
 
-/*esto es la pagina de img*/
-
-/* .respuestas_imagenes {
-    width: 360;
-    height: 408px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: relative;
-    top: -20px;
-
-
-} */
-
-   /* .imagen1 {
+.respuestas_totales img{
     width: 144px;
     height: 200px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-
+    margin: 5px;
 }
-.imagen2 {
-    width: 144px;
-    height: 200px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-
-}
-.imagen3 {
-    width: 144px;
-    height: 200px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-
-}
-.imagen4 {
-    width: 144px;
-    height: 200px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-
-} */

@@ -23,28 +23,32 @@
             <img src="/img/corazon.png" alt="No Disponible">
             <span class="numero_vidas">4</span>
         </div>
-<div class="contenedor_prefuntas">
-        <div class="pregunta">
-            <img src="/img/niño.png" alt="">
-            <p id="pregunta_aleatorio">¿esto sera como una especie de prueba final?
-            </p>
-        </div>
+        <div class="contenedor_preguntas">
+            <div class="pregunta">
+                <img src="/img/niño.png" alt="" id="niño">
+                <p id="pregunta_aleatorio">¿esto sera como una especie de prueba final?
+                </p>
+            </div>
 
-        <div class="respuestas_totales" id="respuestasTotales">
+            <div class="respuestas_totales" id="respuestasTotales">
 
-            <div class="respuesta1"> ${dataDb[contadorPreguntas].respuestas[0]} </div>
-            <div class="respuesta2"> ${dataDb[contadorPreguntas].respuestas[1]} </div>
-            <div class="respuesta3"> ${dataDb[contadorPreguntas].respuestas[2]} </div>
-            
-                <div class="imagen1"></div>
-                <div class="imagen2"></div>
-                <div class="imagen3"></div>
-                <div class="imagen4"></div>
-           
+                <div class="respuesta1"> ${dataDb[contadorPreguntas].respuestas[0]} </div>
+                <div class="respuesta2"> ${dataDb[contadorPreguntas].respuestas[1]} </div>
+                <div class="respuesta3"> ${dataDb[contadorPreguntas].respuestas[2]} </div>
+
+                <template>
+                </template>
+
+                <template id="template-card">
+
+                    <img src="" alt="">
+                  
+                </template>
+
+            </div>
         </div>
-    </div>
         <div class="boton_seleccion">
-            <img src="/img/Buttons.png" alt="No Disponible">
+            <img src="/img/Buttons.png" alt="No Disponible" type="Button">
         </div>
     </div>
 
