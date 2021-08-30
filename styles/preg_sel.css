@@ -10,7 +10,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
 .porcentaje {
     display: flex;
 }
@@ -53,20 +52,21 @@ body {
 
 
 }
+#template-card{
+    background-color: aqua;
+}
 
-.respuestas_totales{
+.respuestas_totales {
     width: 360;
     height: 408px;
     box-sizing: border-box;
     /* display: flex;
-    align-items: flex-end;
-    justify-content:center;
-    flex-wrap: wrap; */
-   
- 
-
+    align-items: center;
+     justify-content:center;
+    flex-wrap: wrap;  */
  
 }
+
 
 .respuesta1 {
     width: 328px;
@@ -111,22 +111,48 @@ body {
     box-sizing: border-box;
     padding-right: 15px;
     background-color: #232e35;
-   
+
 }
 
 #pregunta_aleatorio {
     width: 237px;
     height: 60px;
     text-align: left;
-    
+
+}
+
+.botones {
+    position: relative;
+    top: 100px;
+    padding: 10px;
+    border-radius: 17px;
+    margin: 3px;
+    background-color: #16161a;
+    color: #ef4565;
+
 }
 
 .boton_seleccion {
-    margin-bottom: 15px;
+
 }
 
-.respuestas_totales img{
+.respuestas_totales img {
     width: 144px;
     height: 200px;
     margin: 5px;
 }
+.linea_separadora {
+    width: 328px;
+
+}
+
+.respuestas_org {
+    width: 360;
+    height: 220px;
+} 
+    
+    .linea_separadora{
+        margin-bottom: 80px;
+        margin-left:15px;
+    }
+    

@@ -11,29 +11,34 @@ const respuesta3 = document.querySelector('.respuesta3');
 const items = document.getElementById('respuestasTotales');
 const templateC = document.getElementById('template-card').content;
 const fragment = document.createDocumentFragment()
+const botones_selecion = document.getElementById('botones_sel').content
 
-
+if(localStorage.getItem("prueba_html_final")){
+              
+    var valorExtraido= localStorage.getItem('prueba_html_final')
+    console.log(valorExtraido);
+}
 
 const verificarRespuesta = (evento) => {
     // console.log(evento);
     const respuestaCorrecta = dataDb[contadorPreguntas].respuesta_correcta;
-        if(dataDb[contadorPreguntas].tipo_pregunta == "seleccion"){
+    if (dataDb[contadorPreguntas].tipo_pregunta == "seleccion") {
         if (evento.target.innerText === respuestaCorrecta) {
             contadorPreguntas = contadorPreguntas + 1;
             aumentarProgreso();
             cargaRespuestas();
-        }else{
+        } else {
             console.log("error en seleccion")
         }
-        }else if(dataDb[contadorPreguntas].tipo_pregunta == "imagen"){
-            if (evento.target.src === respuestaCorrecta) {
-                contadorPreguntas = contadorPreguntas + 1;
-                aumentarProgreso();
-                cargaRespuestas();
-            }else{
-                console.log("error en imagen")
-            }
+    } else if (dataDb[contadorPreguntas].tipo_pregunta == "imagen") {
+        if (evento.target.src === respuestaCorrecta) {
+            contadorPreguntas = contadorPreguntas + 1;
+            aumentarProgreso();
+            cargaRespuestas();
+        } else {
+            console.log("error en imagen")
         }
+    }
 }
 
 respuesta1.addEventListener('click', verificarRespuesta);
@@ -56,6 +61,7 @@ const aumentarProgreso = () => {
 
 
 }
+
 const cargaRespuestas = () => {
     console.log(contadorPreguntas, dataDb);
     if (dataDb[contadorPreguntas].tipo_pregunta == "seleccion") {
@@ -65,10 +71,11 @@ const cargaRespuestas = () => {
         respuesta2.innerText = dataDb[contadorPreguntas].respuestas[1];
         respuesta3.innerText = dataDb[contadorPreguntas].respuestas[2];
     } else if (dataDb[contadorPreguntas].tipo_pregunta == "imagen") {
-        
-        respuestasTotales.innerHTML= '';
-        if(document.querySelector('#niño')){
-     document.querySelector('#niño').remove();}
+
+        respuestasTotales.innerHTML = '';
+        if (document.querySelector('#niño')) {
+            document.querySelector('#niño').remove();
+        }
 
         pregunta.innerText = dataDb[contadorPreguntas].pregunta;
 
@@ -76,57 +83,64 @@ const cargaRespuestas = () => {
             templateC.querySelector("img").setAttribute("src", element)
             templateC.querySelector("img").setAttribute("class", "imagencl")
             const clone = templateC.cloneNode(true)
-            
-        
-            fragment.appendChild(clone)
-           
-        
 
+            fragment.appendChild(clone)
 
         });
         items.appendChild(fragment)
         const pruebas1 = document.querySelectorAll(".imagencl")
-        pruebas1.forEach(element =>{
-         
+        pruebas1.forEach(element => {
+
             element.addEventListener('click', verificarRespuesta)
-    
+
         })
-    }else{
+    } else if (dataDb[contadorPreguntas].tipo_pregunta == "organizacion") {
+        respuestasTotales.innerHTML = '';
+        respuestasTotales.innerHTML = `
+                                    <div class="respuestas_org">
+                                             <div class="bloque1">  </div>
+                                            <hr class="linea_separadora">
+                                            <div class="bloque2">  </div>
+                                             <hr class="linea_separadora">
+                                                <div class="bloque3">  </div>
         
+
+
+    </div>`
+
+        pregunta.innerText = dataDb[contadorPreguntas].pregunta;
+
+        dataDb[contadorPreguntas].respuestas.forEach(element => {
+            botones_selecion.querySelector("button").textContent = element
+            botones_selecion.querySelector("button").setAttribute("class", "botones")
+            const clone = botones_selecion.cloneNode(true)
+
+
+            fragment.appendChild(clone)
+
+
+
+
+        });
+        items.appendChild(fragment)
+        const pruebas2 = document.querySelectorAll(".botones")
+        pruebas2.forEach(element => {
+
+            element.addEventListener('click', verificarRespuesta)
+
+        })
     }
-    
+
 }
-
-// console.log(dataDb[contadorPreguntas]);
-
-
-//cargar imagenes
-// if(dataDb.tipo_pregunta===imagen){
-//     respuestasTotales.innerHTML=''
-// }
-// contenedor_prefuntas.innerHTML ='';
-// pregunta.innerText = dataDb[contadorPreguntas].pregunta;
-
-
-
-
-
-// imagen1.innerText = dataDb[contadorPreguntas].respuestas[0];
-// imagen2.innerText = dataDb[contadorPreguntas].respuestas[1];
-// imagen4.innerText = dataDb[contadorPreguntas].respuestas[2];
-// imagen4.innerText = dataDb[contadorPreguntas].respuestas[3];
-
-
-
-
-//cambio el tipo de filtro , por categoria
 
 fetch('../data/bdPreguntas.json')
     .then(response => response.json())
     .then(data => {
-        dataDb = data.filter((pregunta) => pregunta.categoria === 'html');
+        console.log(valorExtraido+" 2 valor")
+        dataDb = data.filter((pregunta) => pregunta.categoria == valorExtraido);
         //aca cargamos el random
         cargaRespuestas();
         console.log(dataDB);
     })
     .catch(error => console.log(error));
+
