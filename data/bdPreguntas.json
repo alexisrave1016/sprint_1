@@ -27,10 +27,10 @@
     {
         "pregunta": "Seleciona logo de Html",
         "categoria": "html",
-        "respuesta_correcta": "https://www.seekpng.com/png/detail/80-803527_html5-css3-and-javascript-logos-html5-logo-png.png",
+        "respuesta_correcta": "https://image.flaticon.com/icons/png/512/732/732212.png",
         "respuestas": [
             "https://cdn.iconscout.com/icon/free/png-256/css3-9-1175237.png",
-            "https://www.seekpng.com/png/detail/80-803527_html5-css3-and-javascript-logos-html5-logo-png.png",
+            "https://image.flaticon.com/icons/png/512/732/732212.png",
             "https://damiandeluca.com.ar/wp-content/uploads/2018/04/reactjs.png",
             "https://p.kindpng.com/picc/s/78-789631_html-css-javascript-icons-hd-png-download.png"
 
@@ -101,7 +101,7 @@
     },
 
     {
-        "pregunta": "¿Que etiqueta usamos para cambiar el fonde del contenedeor?",
+        "pregunta": "¿Que etiqueta usamos para cambiar el fonde del contenedor?",
         "categoria": "css",
         "respuesta_correcta": "background-color",
         "respuestas": [
@@ -143,7 +143,7 @@
     },
 
     {
-        "pregunta": "como hacer esto",
+        "pregunta": "Que imagen no corresponde a CSS",
         "categoria": "css",
         "respuesta_correcta": "https://e7.pngegg.com/pngimages/877/278/png-clipart-microsoft-sql-server-computer-servers-database-microsoft-angle-text.png",
         "respuestas": [

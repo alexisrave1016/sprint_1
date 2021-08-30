@@ -49,6 +49,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin: 40px;
 
 
 }
@@ -129,10 +130,6 @@ body {
     margin: 3px;
     background-color: #16161a;
     color: #ef4565;
-
-}
-
-.boton_seleccion {
 
 }
 

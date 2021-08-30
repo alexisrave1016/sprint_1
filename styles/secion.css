@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 40px;
 }
 
 .logo {
@@ -82,3 +83,4 @@ hr {
 .inscribirse {
     color: #2cb67d;
 }
+
